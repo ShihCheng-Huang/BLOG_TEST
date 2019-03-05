@@ -1,0 +1,75 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "blog",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+  "scripts": {
+    "start": "babel-node service.js",
+    "watch": "nodemon --exec babel-node -- service.js",
+    "postinstall": "bower install && gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "npm, node, package"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "package"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "alt": "^0.18.6",
+    "async": "^2.6.2",
+    "body-parser": "^1.18.3",
+    "bootstrap": "^3.4.1",
+    "colors": "^1.3.3",
+    "compression": "^1.7.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.15",
+    "morgan": "^1.9.1",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-list": "^0.8.11",
+    "react-router-config": "^4.4.0-beta.6",
+    "react-router-dom": "^4.3.1",
+    "reactify": "^1.1.1",
+    "request": "^2.88.0",
+    "serve-favicon": "^2.5.0",
+    "swig": "^1.4.2",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "acorn": "^6.1.1",
+    "babelify": "^10.0.0",
+    "bower": "^1.8.8",
+    "browserify": "^16.2.3",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-if": "^2.0.2",
+    "gulp-less": "^4.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-streamify": "^1.0.2",
+    "gulp-uglify": "^3.0.1",
+    "gulp-util": "^3.0.8",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.1"
+  }
+}
