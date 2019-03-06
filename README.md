@@ -1,5 +1,5 @@
-"# Practicing Git"    
-1.npm install  
-2.npm start  
-  
-DB:MongoDB
+"# Practicing Git"</br>
+1.npm install</br>
+2.npm start</br>
+
+DB:MongoDB</br>
